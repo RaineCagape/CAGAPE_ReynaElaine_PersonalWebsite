@@ -6,32 +6,85 @@ body {
   background-size: cover;
   background-attachment: fixed;}
   
-#page {
+#header {
 
-	padding-top:3px;
-    max-width: 2040px;
+	padding:3px 3px;
+	width:1200px;
     margin: 10px auto 20px auto;
     background-color:  #333;
 }
+
 ul {
     overflow: hidden;
 }
 
 li {
+	
     float: left;
 	display: block;
 	text-align: center;
+	font-size:bold;
+	font-family:Calibri;
+	font-size:40px;
+	margin-top:1px;
+	margin-left:10px;
+	margin-right:50px;
+	color:white;
+	
 }
 
-h1{
-	font-family:Calibri;
-	font-size:30px;
-	margin-top:1px;
-	margin-left:40px;
+li a{
+	text-decoration: none;
+	font-size:40px;
 	color:white;
 }
 
-hold{
+li a:hover{
+	font-weight: bold;
+	color:black;}
+
+#content{
+	margin-top:30px;
+	margin-right:65px;
 	float:right;
-	margin-right:20px;
-	display:none;}
+	width:700px;
+	height:700px;
+    background-color:white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+.button1 {
+	font-family:Calibri;
+    background-color: #ff1a1a;	
+	margin-left: 65px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+	text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+.button1:hover{
+	background-color: #e6f3ff;
+	color: #4CAF50;}
+	
+.button2 {
+	font-family:Calibri;
+    background-color: #ff1a1a;	
+	margin-left: 65px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+	text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+.button2:hover{
+	background-color: #e6f3ff;
+	color: #4CAF50;}
+	
