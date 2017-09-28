@@ -47,44 +47,92 @@ li a:hover{
 	margin-top:30px;
 	margin-right:65px;
 	float:right;
-	width:700px;
+	width:900px;
 	height:700px;
     background-color:white;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	z-index:-1;}
+
+
 
 .button1 {
+	width: 300px;
 	font-family:Calibri;
-    background-color: #ff1a1a;	
-	margin-left: 65px;
+	margin:70px 0 5px 40px;
+    background-color: #ff1a1a;
     border: none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 30px;
+    padding: 15px;
+	list-style-type: none;
+	font-size: 30px;
     cursor: pointer;
 	text-decoration: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+    display: block;
+    text-decoration: none;
+	z-index:1}
 
 .button1:hover{
-	background-color: #e6f3ff;
-	color: #4CAF50;}
+	background-color: #555;}
+
 	
 .button2 {
+	width: 300px;
 	font-family:Calibri;
-    background-color: #ff1a1a;	
-	margin-left: 65px;
+	margin:1px 0 5px 40px;
+    background-color: #ffe502;
     border: none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 30px;
+    padding: 15px;
+	list-style-type: none;
+	font-size: 30px;
     cursor: pointer;
 	text-decoration: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+    display: block;
+    text-decoration: none;
+	z-index:1
+	}
 
 .button2:hover{
-	background-color: #e6f3ff;
-	color: #4CAF50;}
+	 background-color: #555;}
+	
+	
+.button3 {
+	width: 300px;
+	font-family:Calibri;
+	margin:1px 0 5px 40px;
+    background-color: #008941;
+    border: none;
+    color: white;
+    padding: 15px;
+	list-style-type: none;
+	font-size: 30px;
+    cursor: pointer;
+	text-decoration: none;
+    display: block;
+    text-decoration: none;
+	z-index:1}
+
+.button3:hover{
+	 background-color: #555;}
+
+	
+.button4 {
+	width: 300px;
+	font-family:Calibri;
+	margin:1px 0 5px 40px;
+    background-color: #006ba1;
+    border: none;
+    color: white;
+    padding: 15px;
+	list-style-type: none;
+	font-size: 30px;
+    cursor: pointer;
+	text-decoration: none;
+    display: block;
+    text-decoration: none;
+	z-index:1}
+
+.button4:hover{
+	 background-color: #555;}
+	
 	
