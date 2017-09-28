@@ -9,8 +9,9 @@ body {
 #header {
 
 	padding:3px 3px;
+	position: fixed;
 	width:1290px;
-    margin: 10px auto 20px auto;
+    margin: -590px auto 20px auto;
     background-color:  #333;
 }
 
@@ -60,7 +61,7 @@ li a:hover{
 .button1 {
 	width: 300px;
 	font-family:Calibri;
-	margin:70px 0 5px 40px;
+	margin:-370px 0 5px 40px;
     background-color: #ff1a1a;
     border: none;
     color: white;
@@ -70,6 +71,7 @@ li a:hover{
     cursor: pointer;
 	text-decoration: none;
     display: block;
+	position: fixed;
     text-decoration: none;
 	z-index:1}
 
@@ -80,7 +82,7 @@ li a:hover{
 .button2 {
 	width: 300px;
 	font-family:Calibri;
-	margin:1px 0 5px 40px;
+	margin:-300px 0 5px 40px;
     background-color: #ffe502;
     border: none;
     color: white;
@@ -91,8 +93,8 @@ li a:hover{
 	text-decoration: none;
     display: block;
     text-decoration: none;
-	z-index:1
-	}
+	z-index:1;
+	position: fixed;}
 
 .button2:hover{
 	 background-color: #555;}
@@ -101,7 +103,7 @@ li a:hover{
 .button3 {
 	width: 300px;
 	font-family:Calibri;
-	margin:1px 0 5px 40px;
+	margin:-230px 0 5px 40px;
     background-color: #008941;
     border: none;
     color: white;
@@ -112,6 +114,7 @@ li a:hover{
 	text-decoration: none;
     display: block;
     text-decoration: none;
+	position: fixed;
 	z-index:1}
 
 .button3:hover{
@@ -121,7 +124,7 @@ li a:hover{
 .button4 {
 	width: 300px;
 	font-family:Calibri;
-	margin:1px 0 5px 40px;
+	margin:-160px 0 5px 40px;
     background-color: #006ba1;
     border: none;
     color: white;
@@ -131,6 +134,7 @@ li a:hover{
     cursor: pointer;
 	text-decoration: none;
     display: block;
+	position: fixed;
     text-decoration: none;
 	z-index:1}
 
@@ -140,7 +144,7 @@ li a:hover{
 #content{
 	float:right;
 	position:absolute;
-	margin: -320px 65px 0 310px;
+	margin: -440px 65px 0 310px;
 	width:900px;
 	height:800px;
     background-color:white;
@@ -151,3 +155,11 @@ li a:hover{
 h1{
 	font-family:Calibri;
 	text-align:right;}
+	
+#footer{
+	float:bottom;
+	padding:3px 3px;
+	width:1290px;
+    margin: 600px auto 0px auto;
+	background-color:#333;}
+	
