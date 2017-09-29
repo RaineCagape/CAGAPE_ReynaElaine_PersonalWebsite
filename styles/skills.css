@@ -14,23 +14,31 @@
 	
 #g1{
 	float:left;
-	padding:5px;
+	padding:15px;
 	margin-top:30px;
 	margin-left:70px;
 	height:300px;
-	width:370px;
-	border-style: groove;
+	width:350px;
+	background-image: url("../images/multimedia.jpg");
+	opacity:0.5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-style: solid;
 	border-color: 8dc63f;
 	}
 
 		
 #g2{
 	margin-top:30px;
-	padding:5px;
+	padding:15px;
 	float:right;
+	background-image: url("../images/programming.jpg");
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-right:40px;
 	height:300px;
-	width:370px;
-	border-style: groove;
+	width:350px;
+	border-style: solid;
 	border-color: #959595;
 	}
