@@ -158,12 +158,19 @@ li a:hover{
 	margin-top:60px;
 	margin-left:400px;
 	position:absolute;
-	width:700px;
-	height:700px;}
+	width:700px;}
 
 #group2{
 	margin-left:70px;
-	margin-top:350px;}
+	margin-top:350px;
+	position:absolute;
+	width:700px;}
+	
+#group3{
+	margin-left:70px;
+	margin-top:620px;
+	position:absolute;
+	width:700px;}
 	
 .head{
 	font-family:arial;
@@ -178,6 +185,7 @@ li a:hover{
     margin: 600px auto 0px auto;}
 
 .nextButton{
+	
 	font-family:Calibri;
     color: black;
     text-align: center;
