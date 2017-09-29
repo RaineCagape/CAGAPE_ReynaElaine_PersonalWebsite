@@ -168,7 +168,7 @@ li a:hover{
 	
 #group3{
 	margin-left:70px;
-	margin-top:620px;
+	margin-top:630px;
 	position:absolute;
 	width:700px;}
 	
@@ -183,15 +183,3 @@ li a:hover{
 	padding:3px 3px;
 	width:1290px;
     margin: 600px auto 0px auto;}
-
-.nextButton{
-	
-	font-family:Calibri;
-    color: black;
-    text-align: center;
-    display: inline-block;
-    font-size: 60px;
-    cursor: pointer;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #000;}
-	
