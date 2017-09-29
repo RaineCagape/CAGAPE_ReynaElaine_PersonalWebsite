@@ -175,4 +175,14 @@ li a:hover{
 	padding:3px 3px;
 	width:1290px;
     margin: 600px auto 0px auto;}
+
+.nextButton{
+	font-family:Calibri;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 60px;
+    cursor: pointer;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000;}
 	
