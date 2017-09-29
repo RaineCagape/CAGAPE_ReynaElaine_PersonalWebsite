@@ -90,7 +90,8 @@ li a:hover{
 	z-index:2}
 
 .button1:hover{
-	background-color: #555;}
+	background-color: white;
+	color:#ff1a1a;}
 
 	
 .button2 {
@@ -111,7 +112,8 @@ li a:hover{
 	position: fixed;}
 
 .button2:hover{
-	 background-color: #555;}
+	 background-color: white;
+	color:#ffe502;}
 	
 	
 .button3 {
@@ -132,7 +134,8 @@ li a:hover{
 	z-index:-1}
 
 .button3:hover{
-	 background-color: #555;}
+	background-color: white;
+	color:#008941;}
 
 	
 .button4 {
@@ -153,7 +156,8 @@ li a:hover{
 	z-index:-1}
 
 .button4:hover{
-	 background-color: #555;}
+	background-color: white;
+	color:#006ba1;}
 
 #content{
 	float:right;

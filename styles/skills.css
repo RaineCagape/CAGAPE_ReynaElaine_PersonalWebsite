@@ -6,3 +6,31 @@
 	
 .button3 {
 	z-index:2}
+	
+.head{
+	margin-top:10px;
+	margin-left:70px;
+    }
+	
+#g1{
+	float:left;
+	padding:5px;
+	margin-top:30px;
+	margin-left:70px;
+	height:300px;
+	width:370px;
+	border-style: groove;
+	border-color: 8dc63f;
+	}
+
+		
+#g2{
+	margin-top:30px;
+	padding:5px;
+	float:right;
+	margin-right:40px;
+	height:300px;
+	width:370px;
+	border-style: groove;
+	border-color: #959595;
+	}
