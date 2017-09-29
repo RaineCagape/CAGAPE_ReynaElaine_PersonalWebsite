@@ -53,8 +53,7 @@ li a:hover{
 	}
 	
 .picture2{
-	margin-left:420px;
-	margin-top:-320px;
+	margin-left:90px;
 	position:absolute;
 	z-index:1;}
 
@@ -144,22 +143,36 @@ li a:hover{
 #content{
 	float:right;
 	position:absolute;
-	margin: -440px 65px 0 310px;
+	margin: -440px 65px 20px 310px;
 	width:900px;
-	height:800px;
+	height:1000px;
     background-color:white;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	padding:20px;
 	z-index: -1;}	
-
-h1{
-	font-family:Calibri;
-	text-align:right;}
 	
-#footer{
+#basic{
+	margin-top:90px;
+	margin-left:400px;
+	position:absolute;
+	width:700px;
+	height:700px;}
+	
+.group1{
+	font-family:arial;
+	color:black;
+	font-size:40px;
+	}
+
+.sub1{
+	font-family:Calibri;
+	color:black;
+	font-size:25px;
+}
+	
+#end{
 	float:bottom;
 	padding:3px 3px;
 	width:1290px;
-    margin: 600px auto 0px auto;
-	background-color:#333;}
+    margin: 600px auto 0px auto;}
 	
