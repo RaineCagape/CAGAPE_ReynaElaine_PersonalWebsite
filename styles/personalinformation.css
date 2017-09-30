@@ -27,6 +27,7 @@ body {
 	width:1290px;
     margin: -590px auto 20px auto;
     background-color:  #333;
+	z-index:3;
 }
 
 ul {
