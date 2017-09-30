@@ -12,48 +12,64 @@
 	margin-left:70px;
     }
 	
+#desc1{
+	float:left;
+    width: 700px;
+	padding:5px;
+	font-size:25px;
+	margin-left:80px;
+	margin-top:20px;}
+	
+	
 #g1{
 	float:left;
 	padding:15px;
-	margin-top:20px;
-	margin-left:70px;
-	width:350px;
+	margin-top:40px;
+	margin-left:90px;
+	width:600px;
 	background-image: url("../images/multimedia.jpg");
 	background-size: cover;
+	border:ridge;
+	border-color:darkgreen;
 	background-repeat: no-repeat;
 	font-family:Lucida Console;
 	color:white; 
 	font-size:40px;
 	}
 		
+
+
+#desc2{
+	width:900px;
+	float:left;
+	padding:5px;
+	font-size:25px;
+	margin-left:110px;
+	margin-top:10px;
+}
+
 #g2{
-	margin-top:20px;
+	float:left;
+	margin-top:50px;
 	padding:13px;
-	float:right;
 	background-image: url("../images/programming.jpg");
 	background-position: right;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-right:40px;
-	width:350px;
+	margin-left:90px;
+	width:600px;
 	font-size:40px;
+	border:ridge;
+	border-color:darkgray;
 	font-family:Courier New;
 	}
-
-#desc1{
+	
+#desc3{
+	width:600px;
 	float:left;
     width: 390px;
 	padding:5px;
 	font-size:25px;
-	margin-left:60px;
-	margin-top:23px;
-}
-
-#desc2{
-	float:right;
-    width: 390px;
-	padding:5px;
-	font-size:25px;
-	margin-left:60px;
-	margin-top : -185px;
+	margin-left:115px;
+	margin-top : 20px;
 }
