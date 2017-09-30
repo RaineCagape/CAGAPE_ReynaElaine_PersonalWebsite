@@ -1,0 +1,10 @@
+body {
+  
+  background-image: url("../images/ambackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:Comic Sans MS;
+  color:black;
+  font-size:25px;}
