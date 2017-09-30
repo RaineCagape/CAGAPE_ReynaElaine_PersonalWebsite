@@ -1,11 +1,18 @@
+	
+.button1 {
+	z-index:-1;
+	box-shadow: none;}
+	
+.button2 {
+	z-index:2;
+	box-shadow: 3px 1px 5px 0  #adad85;}
+	
 .head{
 	margin-top:50px;
 	margin-left:70px;
 	font-family: Arial;
     }
 	
-
-
 #con1{
 	
 	margin-left:50px;
@@ -40,9 +47,3 @@
 	margin-left:70px;
 	position:absolute;}
 
-	
-.button1 {
-	z-index:-1}
-	
-.button2 {
-	z-index:2}
