@@ -6,7 +6,7 @@ body {
   background-attachment:fixed;
   font-family:Kristen ITC;
   color:black;
-  font-size:20px;}
+  font-size:18px;}
 
 
 #header {
@@ -23,7 +23,7 @@ body {
 	height:110px;
 	padding:3px;
 	margin-top:30px;
-	margin-left:95px;
+	margin-left:155px;
 	background-size:cover;
 	background-repeat:norepeat;
 }
@@ -99,7 +99,7 @@ figure{
 	margin-top:-340px;
 	margin-left:105px;
 	height:880px;
-	width:650px;
+	width:750px;
 	position:absolute;
 	background-color:a2b1b6;
 	opacity:0.8;
@@ -194,8 +194,9 @@ figure{
 	}
  
 #hobbies{
-	margin-left:110px;
+	margin-left:120px;
 	margin-top:930px;
+	width:710px;
 	position:absolute;
 	padding:10px;
 	height:300px;
@@ -204,8 +205,8 @@ figure{
 #con2{
 	margin-top:940px;
 	margin-left:105px;
-	height:880px;
-	width:650px;
+	height:1330px;
+	width:750px;
 	position:absolute;
 	background-color:3d6297;
 	opacity:0.8;
@@ -214,7 +215,7 @@ figure{
 	
 #interest{
 	margin-left:100px;
-	margin-top:2030px;
+	margin-top:2630px;
 	position:absolute;
 	width:700px ;
 	height:300px;
