@@ -1,10 +1,9 @@
 body {
   
   background-image: url("../images/ambackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
   font-family:Kristen ITC;
   color:black;
   font-size:20px;}
@@ -91,7 +90,7 @@ figure{
 	padding:20px 25px;
 	margin-left:105px;
 	width:600px;
-	color:fecb9e;
+	color:c01760;
 	position:absolute;
 	z-index:2;
 	}
@@ -102,8 +101,8 @@ figure{
 	height:880px;
 	width:650px;
 	position:absolute;
-	background-color:082960;
-	opacity:0.5;
+	background-color:a2b1b6;
+	opacity:0.8;
 	z-index:-1;
 	}
 
@@ -196,14 +195,25 @@ figure{
  
 #hobbies{
 	margin-left:110px;
-	margin-top:900px;
+	margin-top:930px;
 	position:absolute;
-	width:700px ;
+	padding:10px;
 	height:300px;
-	z-index:-1}
+	z-index:1}
+	
+#con2{
+	margin-top:940px;
+	margin-left:105px;
+	height:880px;
+	width:650px;
+	position:absolute;
+	background-color:3d6297;
+	opacity:0.8;
+	z-index:-1;
+	}	
 	
 #interest{
-	margin-left:120px;
+	margin-left:100px;
 	margin-top:2030px;
 	position:absolute;
 	width:700px ;
