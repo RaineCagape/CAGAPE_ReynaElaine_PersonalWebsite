@@ -79,89 +79,71 @@ body {
 	color:#c2c2a3;}
 
 #top{
-	margin-top:150px;
-	margin-left:275px;
+	margin-top:100px;
+	margin-left:205px;
 	width:1000px;}
 	
 .g1{
 	margin-top:5px;
 	margin-left:30px;
-    position: relative;
+    position: fixed;
     background-color: #4CAF50;
-    border: none;
-    font-size: 28px;
+    font-size: 20px;
     background-image: url("../images/hob.jpg");
 	background-size:cover;
 	background-repeat:norepeat;
     padding: 20px;
-    width: 200px;
+	color:#141e25;
     text-align: center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+	border-radius: 25px;
+	z-index:2;
 }
 
-.g1:after {
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
+.g1:hover{
+	transform: scale(1.1);
+	}
 
-.g1:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-}
-
-	
 .g2{
-	margin-top:5px;
+	margin-top:140px;
 	margin-left:30px;
-    position: relative;
-    background-color: #4CAF50;
-    border: none;
-    font-size: 28px;
-    background-image: url("../images/hob.jpg");
+	position: fixed;
+    color: red;
+    font-size: 20px;
+    background-image: url("../images/int.jpg");
 	background-size:cover;
 	background-repeat:norepeat;
     padding: 20px;
-    width: 200px;
     text-align: center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
-    overflow: hidden;
     cursor: pointer;
+	border-radius: 25px;
+	z-index:2;
 }
 
-.g2:after {
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
+.g2:hover{
+	transform: scale(1.1);
+	}
 
-.g2:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-}
+#hobbies{
+	margin-left:250px;
+	margin-top:530px;
+	position:absolute;
+	width:700px ;
+	height:300px;
+	z-index:-1}
+	
+#interest{
+	margin-left:250px;
+	margin-top:2030px;
+	position:absolute;
+	width:700px ;
+	height:300px;
+	z-index-1;}
 
 
