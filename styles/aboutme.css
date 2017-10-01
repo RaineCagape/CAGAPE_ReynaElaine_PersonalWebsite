@@ -215,24 +215,24 @@ figure{
 	height:300px;
 	z-index:1}
 .spad{
-	width:60px; 
-	height:110px;
+	width:50px; 
+	height:70px;
 	z-index:2;
 	position:absolute;
 	margin-left:400px;
 	margin-top:-350px;}
 
 .cpaper{
-	width:60px; 
-	height:110px;
+	width:50px; 
+	height:50px;
 	z-index:2;
 	position:absolute;
-	margin-left:520px;
-	margin-top:-180px;}
+	margin-left:470px;
+	margin-top:-130px;}
 	
 .pencil{
 	width:60px; 
-	height:110px;
+	height:90px;
 	z-index:2;
 	position:absolute;
 	margin-left:590px;
@@ -297,6 +297,45 @@ figure{
 	height:300px;
 	z-index:1;}
 
+.pm{
+	width:120px; 
+	height:50px;
+	z-index:2;
+	position:absolute;
+	margin-left:490px;
+	margin-top:-10px;}
+
+.id{
+	width:120px; 
+	height:50px;
+	z-index:2;
+	position:absolute;
+	margin-left:100px;
+	margin-top:-10px;}
+
+.bt{
+	width:40px; 
+	height:40px;
+	z-index:2;
+	position:absolute;
+	margin-left:350px;
+	margin-top:-7px;}
+
+.cat{
+	width:60px; 
+	height:60px;
+	z-index:2;
+	position:absolute;
+	margin-left:30px;
+	margin-top:-200px;}
+	
+.doge{
+	width:60px; 
+	height:60px;
+	z-index:2;
+	position:absolute;
+	margin-left:590px;
+	margin-top:-200px;}
 #con3{
 	margin-top:-520px;
 	margin-left:-45px;
@@ -309,3 +348,26 @@ figure{
 	z-index:-1;
 	}	
 
+.cn{
+	width:50px; 
+	height:50px;
+	z-index:2;
+	position:absolute;
+	margin-left:30px;
+	margin-top:-300px;}
+	
+.dxd{
+	width:50px; 
+	height:50px;
+	z-index:2;
+	position:absolute;
+	margin-left:590px;
+	margin-top:-350px;}
+
+.nick{
+	width:60px; 
+	height:40px;
+	z-index:2;
+	position:absolute;
+	margin-left:410px;
+	margin-top:-390px;}
