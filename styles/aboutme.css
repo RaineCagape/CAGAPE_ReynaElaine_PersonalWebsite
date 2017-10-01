@@ -24,7 +24,7 @@ body {
 	height:110px;
 	padding:3px;
 	margin-top:30px;
-	margin-left:265px;
+	margin-left:95px;
 	background-size:cover;
 	background-repeat:norepeat;
 }
@@ -33,15 +33,16 @@ body {
 
 .personalB{
 	cursor: pointer;
-	float:left;
+	float:right;
 	width: 100px;
 	height: 100px;
+	margin-top:6px;
 	padding:10px;
 	opacity:0.8;
 	color:white;
 	font-family: Arial;
 	text-align:center;
-	margin-right:20px;
+	margin-right:25px;
 	text-decoration: none;
 	z-index:1;
 	background-image: url("../images/personalB.png");
@@ -66,7 +67,8 @@ body {
 	font-family: Arial;
 	text-align:center;
 	text-decoration: none;
-	margin-top:-120px;
+	margin-top:-110px;
+	margin-right:20px;
 	z-index:1;
 	background-image: url("../images/mainB.png");
 	background-size:cover;
@@ -80,8 +82,9 @@ body {
 
 #top{
 	margin-top:100px;
-	margin-left:205px;
-	width:1000px;}
+	margin-left:105px;
+	width:1000px;
+	}
 	
 .g1{
 	margin-top:5px;
@@ -129,17 +132,22 @@ body {
 .g2:hover{
 	transform: scale(1.1);
 	}
-
+ 
+figure{
+	width:400px;
+	height:600px;
+}	 
 #hobbies{
-	margin-left:250px;
-	margin-top:530px;
+	margin-left:850px;
+	margin-top:560px;
 	position:absolute;
 	width:700px ;
 	height:300px;
 	z-index:-1}
 	
 #interest{
-	margin-left:250px;
+	float:right;
+	margin-left:20px;
 	margin-top:2030px;
 	position:absolute;
 	width:700px ;
