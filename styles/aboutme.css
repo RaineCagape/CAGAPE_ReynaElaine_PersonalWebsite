@@ -5,16 +5,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family:Comic Sans MS;
+  font-family:arial;
   color:black;
   font-size:25px;}
 
 
 #header {
-	text-shadow: 2px 2px 8px black;
+	color: red;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 	text-align:left;
 	font-family:Goudy Stout; 
-	color:#ff3300;
 	width:1000px;
 	height:110px;
 	padding:3px;
@@ -72,7 +77,91 @@ body {
 	opacity:1;
 	transform: scale(1.1);
 	color:#c2c2a3;}
+
+#top{
+	margin-top:150px;
+	margin-left:275px;
+	width:1000px;}
 	
-ul{
-	margin-top:30px;
-	margin-left:80px;}
+.g1{
+	margin-top:5px;
+	margin-left:30px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    background-image: url("../images/hob.jpg");
+	background-size:cover;
+	background-repeat:norepeat;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.g1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.g1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+	
+.g2{
+	margin-top:5px;
+	margin-left:30px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    background-image: url("../images/hob.jpg");
+	background-size:cover;
+	background-repeat:norepeat;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.g2:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.g2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+

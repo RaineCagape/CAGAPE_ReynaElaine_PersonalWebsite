@@ -24,7 +24,7 @@
 
 .button {
 	font-family:Calibri;
-    background-color: #4CAF50;
+    background-color: 657da9;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -51,7 +51,7 @@
 
 .button:hover{
 	background-color: #e6f3ff;
-	color: #4CAF50;}
+	color: #657da9;}
 	
 .button1:hover{
 	background-color: #e6f3ff;
