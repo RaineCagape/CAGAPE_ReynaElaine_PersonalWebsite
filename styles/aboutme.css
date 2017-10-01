@@ -5,13 +5,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family:arial;
+  font-family:Kristen ITC;
   color:black;
-  font-size:25px;}
+  font-size:20px;}
 
 
 #header {
-	color: red;
+	color: fecb9e;
     text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
@@ -80,23 +80,49 @@ body {
 	transform: scale(1.1);
 	color:#c2c2a3;}
 
+figure{
+	margin-top:100px;
+	margin-left:330px;
+	width:220px;
+	height:230px;}
+	
 #top{
 	margin-top:100px;
+	padding:20px 25px;
 	margin-left:105px;
-	width:1000px;
+	width:600px;
+	color:fecb9e;
+	position:absolute;
+	z-index:2;
 	}
 	
+#con1{
+	margin-top:-340px;
+	margin-left:105px;
+	height:880px;
+	width:650px;
+	position:absolute;
+	background-color:082960;
+	opacity:0.5;
+	z-index:-1;
+	}
+
 .g1{
-	margin-top:5px;
-	margin-left:30px;
-    position: fixed;
+	color: black;
+   -webkit-text-fill-color: #141e25; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+	float:right;
+	margin-top:100px;
+	margin-left:970px;
+	width: 300px;
+	position: fixed;
     background-color: #4CAF50;
     font-size: 20px;
     background-image: url("../images/hob.jpg");
 	background-size:cover;
 	background-repeat:norepeat;
     padding: 20px;
-	color:#141e25;
     text-align: center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -111,10 +137,15 @@ body {
 	}
 
 .g2{
-	margin-top:140px;
-	margin-left:30px;
+	color: black;
+   -webkit-text-fill-color:red;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+	float:right;
+	margin-top:250px;
+	margin-left:970px;
+	width: 300px;
 	position: fixed;
-    color: red;
     font-size: 20px;
     background-image: url("../images/int.jpg");
 	background-size:cover;
@@ -133,21 +164,46 @@ body {
 	transform: scale(1.1);
 	}
  
-figure{
-	width:400px;
-	height:600px;
-}	 
+	
+.g3{
+	color: black;
+   -webkit-text-fill-color: #141e25; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+	float:right;
+	margin-top:400px;
+	margin-left:970px;
+	width: 300px;
+	position: fixed;
+    background-color: green;
+    font-size: 20px;
+    background-image: url("../images/gallery.jpg");
+	background-size:cover;
+	background-repeat:norepeat;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+	border-radius: 25px;
+	z-index:2;
+}
+
+.g3:hover{
+	transform: scale(1.1);
+	}
+ 
 #hobbies{
-	margin-left:850px;
-	margin-top:560px;
+	margin-left:110px;
+	margin-top:900px;
 	position:absolute;
 	width:700px ;
 	height:300px;
 	z-index:-1}
 	
 #interest{
-	float:right;
-	margin-left:20px;
+	margin-left:120px;
 	margin-top:2030px;
 	position:absolute;
 	width:700px ;
