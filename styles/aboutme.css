@@ -100,10 +100,24 @@ figure{
 	height:880px;
 	width:750px;
 	position:absolute;
-	background-color:a2b1b6;
+	background-color:7bbec4;
 	opacity:0.8;
 	z-index:-1;
 	}
+
+	
+.g0{
+	position: fixed;
+	margin-left:1100px;
+	z-index:2;
+	font-size:20px;
+	font-family:Arial;
+	color:white;
+	text-decoration: none;}
+
+.g0:hover {
+    text-decoration: underline;}
+
 
 .g1{
 	color: black;
